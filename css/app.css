@@ -1,0 +1,16 @@
+body { color:white}
+
+code {
+  display: none;
+}
+
+.modal {
+  transition: opacity 0.25s ease;
+}
+
+body.modal-active {
+  overflow-x: hidden;
+  overflow-y: visible !important;
+}
+
+input { background-color: white;}
